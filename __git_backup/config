@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:hexschool/web-layout-training-vite.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = pluseus
+	vscode-merge-base = origin/main
+	merge = refs/heads/main
+[remote "pluseus"]
+	url = git@github.com:pluseus/hexschool_single_project_exam.git
+	fetch = +refs/heads/*:refs/remotes/pluseus/*
